@@ -15,9 +15,6 @@ app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));
 // Where we will keep hotels
 
-
-let hotels = [];
-
 app.use(cors());
 // Configuring body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
